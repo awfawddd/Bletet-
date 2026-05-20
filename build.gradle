@@ -1,0 +1,5 @@
+// build.gradle a livello di PROGETTO
+// Qui si dichiarano i plugin che useranno i moduli (in questo caso il modulo "app").
+plugins {
+    id 'com.android.application' version '8.2.0' apply false
+}

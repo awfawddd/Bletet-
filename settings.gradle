@@ -1,0 +1,19 @@
+// settings.gradle - dice a Gradle quali moduli compongono il progetto
+// e dove scaricare le librerie (repository).
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "BluetoothMusic"
+include ':app'
